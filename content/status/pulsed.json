@@ -1,0 +1,7 @@
+{
+    "type": "StatusEffect",
+    "speedMultiplier": 0.0,
+    "disarm": true,
+    "color": "E8EA86",
+    "name" : "pulsed"
+}
