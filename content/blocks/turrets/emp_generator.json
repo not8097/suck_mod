@@ -5,7 +5,10 @@
     "health": 2485,
     "size": 3,
     "reload": 300,
+    "warmupMaintainTime":60,
+    "recoil":0,
     "range": 200,
+    "shootSound": "",
     "buildCostMultiplier": 0.85,
     "shoot":{
         "type": "ShootSpread",
@@ -15,14 +18,15 @@
     "consumes": {
         "power": 20
     },
-    "rotateSpeed": 40,
+    "rotateSpeed": 99,
     "shootType": {
         "type": "ShrapnelBulletType",
         "length": 200,
         "damage": 20,
         "width": 1,
         "statusDuration": 180,
-        "status": "pulsed"
+        "status": "pulsed",
+        "buildingDamageMultiplier":0
 },
     "category": "turret",
     "research": "meltdown",
