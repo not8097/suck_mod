@@ -28,7 +28,7 @@
         "width": 1,
         "statusDuration": 180,
         "status": "pulsed",
-        "buildingDamageMultiplier": 10
+        "buildingDamageMultiplier": 0
 },
     "category": "turret",
     "research": "meltdown",
