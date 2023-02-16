@@ -8,7 +8,7 @@
     "warmupMaintainTime":60,
     "recoil":0,
     "range": 200,
-    "shootSound": "",
+    "shootSound": "8097/EMP",
     "buildCostMultiplier": 0.85,
     "shoot":{
         "type": "ShootSpread",
