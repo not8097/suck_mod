@@ -2,14 +2,12 @@
     "type": "PowerTurret",
     "name": "EMP Generator",
     "description": "Uses massive amounts of electricity to release an EMP to disable enemy units.",
-    "health": 912,
+    "health": 2485,
     "size": 3,
-    "shootCone": 360,
     "reload": 300,
     "warmupMaintainTime":60,
     "recoil":0,
     "range": 200,
-    "shootY": 0,
     "shootSound": "8097/EMP",
     "buildCostMultiplier": 0.85,
     "shoot":{
@@ -20,7 +18,7 @@
     "consumes": {
         "power": 20
     },
-    "rotateSpeed": 0,
+    "rotateSpeed": 99,
     "shootType": {
         "type": "ShrapnelBulletType",
         "length": 200,
@@ -28,10 +26,10 @@
         "width": 1,
         "statusDuration": 180,
         "status": "pulsed",
-        "buildingDamageMultiplier": 0
+        "buildingDamageMultiplier":0
 },
     "category": "turret",
-    "research": "meltdown",
+    "research": "lancer",
     "requirements": [    
         "copper/1000",
         "lead/800",

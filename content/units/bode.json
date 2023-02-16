@@ -1,0 +1,67 @@
+{    "name":"bode",
+    "type": "mech",
+    "speed": 1,
+    "accel": 1,
+    "drag": 1,
+    "health": 120,
+    "hitSize": 9,
+    "itemCapacity": 5,
+    "targetAir": true,
+    "targetGround": true,
+    "faceTarget": true,
+    "circleTarget": false,
+    "rotateSpeed": 15,
+    "weapons": [
+        {
+            "y": 0,
+            "x": 0,
+            "linearWarmup":true,
+            "mirror": false,
+            "rotate": false,
+            "reload": 150,
+            "recoil": 5,
+            "shake": 2,
+            "lifetime": 999999,
+            "bullet": {
+                "name": "bodeammo",
+                "type": "ShrapnelBulletType",
+                "length": 200,
+                "damage": 30,
+                "width": 4,
+                "status": "brokenbody",
+                "buildingDamageMultiplier":0.35
+            },
+            "shootSound": ""
+        },
+        { "reload": 600,
+          "y": 0,
+          "x": 0,
+          "mirror": false,
+          "rotate": false,
+          "shootStatus":"attack",
+          "shoot":{
+            "type": "ShootSpread",
+            "shots": 10
+        },
+          "shootStatusDuration":300,
+            "bullet": {
+            "type": "BasicBulletType",
+                "width": 10,
+                "inaccuracy":360,
+                "height": 10,
+                "speed": 1,
+                "lifetime": 30,
+                "damage": 1,
+                "shootEffect": "shootSmall",
+                "smokeEffect": "shootSmallSmoke",
+                "ammoMultiplier": 2,
+                "frontColor": "ffbf72",
+                "backColor": "977143",
+                "lightColor": "fabd72",
+                "collidesTeam": false
+        },
+        "shootSound": ""}
+    ]
+}
+    
+   
