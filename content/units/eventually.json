@@ -1,7 +1,9 @@
-{"name" : "fulfilled",
+{"name" : "eventually",
+"type": "mech",
+"health": 16000,
+"armor":6,
 "description":"s",
-"health": 600,
-"mass":4,
+"mass":7,
 "hitSize": 18,
 "speed":0.34,
 "range":200,
@@ -15,8 +17,8 @@
         {
         "shoot":{
                 "type": "ShootSpread",
-                "shots": 40,
-                "spread":1
+                "shots": 3,
+                "spread":30
         },
             "y": 0,
             "x": 0,
@@ -27,24 +29,16 @@
             "shake": 2,
             "lifetime": 999999,
             "bullet": {
-                "type": "BasicBulletType",
-                    "width": 30,
-                    "inaccuracy":4,
-                    "height": 30,
-                    "speed": 8,
-                    "lifetime": 30,
-                    "damage": 10,
-                    "status": "burning",
-                    "shootEffect": "shootSmall",
-                    "smokeEffect": "shootSmallSmoke",
-                    "ammoMultiplier": 2,
-                    "frontColor": "ffbf72",
-                    "backColor": "977143",
-                    "lightColor": "fabd72",
-                    "collidesTeam": false
+                "name": "bodeammo",
+                "type": "ShrapnelBulletType",
+                "length": 150,
+                "damage": 400,
+                "width": 4,
+                "status": "brokenbody",
+                "buildingDamageMultiplier":0.35
             },
-            "shootSound": ""}
-        ,
+            "shootSound": ""
+        },
         { "reload": 600,
           "y": 0,
           "x": 0,
