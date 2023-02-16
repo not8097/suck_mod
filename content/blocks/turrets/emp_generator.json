@@ -20,7 +20,7 @@
     "consumes": {
         "power": 20
     },
-    "rotateSpeed": 99,
+    "rotateSpeed": 0,
     "shootType": {
         "type": "ShrapnelBulletType",
         "length": 200,
