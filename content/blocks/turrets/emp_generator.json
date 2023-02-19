@@ -8,6 +8,8 @@
     "warmupMaintainTime":60,
     "recoil":0,
     "range": 200,
+    "shootCone": 360,
+    "shootY": 0,
     "shootSound": "8097/EMP",
     "buildCostMultiplier": 0.85,
     "shoot":{
@@ -18,7 +20,7 @@
     "consumes": {
         "power": 20
     },
-    "rotateSpeed": 99,
+    "rotateSpeed": 0,
     "shootType": {
         "type": "ShrapnelBulletType",
         "length": 200,
