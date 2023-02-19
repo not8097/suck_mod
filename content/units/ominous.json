@@ -2,6 +2,7 @@
 "description":"s",
 "type":"flying",
 "health": 400,
+"flying":true,
 "armor":1,
 "speed":2.5,
 "accel": 0.05,

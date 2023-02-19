@@ -3,6 +3,7 @@
 "type":"flying",
 "health": 900,
 "mass":4,
+"flying":true,
 "armor":3,
 "accel": 0.05,
 "drag": 0.017,

@@ -1,6 +1,7 @@
 {"name" : "struggle",
 "description":"s",
 "type":"flying",
+"flying":true,
 "health": 8500,
 "accel": 0.05,
 "drag": 0.017,
