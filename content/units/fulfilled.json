@@ -1,10 +1,14 @@
 {"name" : "fulfilled",
 "description":"s",
-"health": 600,
+"type":"flying",
+"health": 900,
 "mass":4,
+"armor":3,
+"accel": 0.05,
+"drag": 0.017,
 "hitSize": 18,
-"speed":0.34,
-"range":200,
+"speed":2.13,
+"range":27,
     "itemCapacity": 200,
     "targetAir": true,
     "targetGround": true,
@@ -32,7 +36,7 @@
                     "inaccuracy":4,
                     "height": 30,
                     "speed": 8,
-                    "lifetime": 30,
+                    "lifetime": 20,
                     "damage": 10,
                     "status": "burning",
                     "shootEffect": "shootSmall",
@@ -73,5 +77,11 @@
                 "collidesTeam": false
         },
         "shootSound": ""}
+        
+
+
+
+
+
     ]
 }
