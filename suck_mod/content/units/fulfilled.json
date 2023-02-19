@@ -1,0 +1,87 @@
+{"name" : "fulfilled",
+"description":"s",
+"type":"flying",
+"health": 900,
+"mass":4,
+"armor":3,
+"accel": 0.05,
+"drag": 0.017,
+"hitSize": 18,
+"speed":2.13,
+"range":27,
+    "itemCapacity": 200,
+    "targetAir": true,
+    "targetGround": true,
+    "faceTarget": true,
+    "circleTarget": false,
+    "rotateSpeed": 15,
+    "weapons": [
+        {
+        "shoot":{
+                "type": "ShootSpread",
+                "shots": 40,
+                "spread":1
+        },
+            "y": 0,
+            "x": 0,
+            "mirror": false,
+            "rotate": false,
+            "reload": 150,
+            "recoil": 5,
+            "shake": 2,
+            "lifetime": 999999,
+            "bullet": {
+                "type": "BasicBulletType",
+                    "width": 30,
+                    "inaccuracy":4,
+                    "height": 30,
+                    "speed": 8,
+                    "lifetime": 20,
+                    "damage": 10,
+                    "status": "burning",
+                    "shootEffect": "shootSmall",
+                    "smokeEffect": "shootSmallSmoke",
+                    "ammoMultiplier": 2,
+                    "frontColor": "ffbf72",
+                    "backColor": "977143",
+                    "lightColor": "fabd72",
+                    "collidesTeam": false
+            },
+            "shootSound": ""}
+        ,
+        { "reload": 600,
+          "y": 0,
+          "x": 0,
+          "mirror": false,
+          "rotate": false,
+          "shootStatus":"ruthless_assault",
+          "shoot":{
+            "type": "ShootSpread",
+            "shots": 20
+        },
+          "shootStatusDuration":300,
+            "bullet": {
+            "type": "BasicBulletType",
+                "width": 30,
+                "inaccuracy":360,
+                "height": 30,
+                "speed": 2,
+                "lifetime": 30,
+                "damage": 40,
+                "shootEffect": "shootSmall",
+                "smokeEffect": "shootSmallSmoke",
+                "ammoMultiplier": 2,
+                "frontColor": "ffbf72",
+                "backColor": "977143",
+                "lightColor": "fabd72",
+                "collidesTeam": false
+        },
+        "shootSound": ""}
+        
+
+
+
+
+
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "type": "StatusEffect",
+    "speedMultiplier": 0.3,
+    "reloadMultiplier": 0.5,
+    "effectChance":0.6,
+    "color": "000000",
+    "name" : "broken body",
+    "permanent":true,
+
+    "description":"your body is broken!!!it broke forever!"
+}

@@ -1,0 +1,142 @@
+{"name" : "eventually",
+"type": "flying",
+"health": 6000,
+"armor": 25,
+"buildSpeed": 3,
+"speed": 1.6,
+"accel": 0.05,
+"drag": 0.017,
+"flying": true,
+"engineOffset": 6,
+"hitSize": 9,
+"itemCapacity": 200,
+"targetAir": true,
+"targetGround": true,
+"faceTarget": true,
+"circleTarget": false,
+    "weapons": [
+        {
+        "shoot":{
+                "type": "ShootSpread",
+                "shots": 3,
+                "spread":30
+        },
+            "y": 0,
+            "x": 0,
+            "mirror": false,
+            "rotate": false,
+            "reload": 150,
+            "recoil": 5,
+            "shake": 2,
+            "lifetime": 999999,
+            "bullet": {
+                "name": "bodeammo",
+                "type": "ShrapnelBulletType",
+                "length": 240,
+                "damage": 400,
+                "width": 4,
+                "permanent":true,
+                "status": "brokenbody",
+                "buildingDamageMultiplier":0.35
+            },
+            "shootSound": ""
+        },
+
+
+
+        { "reload": 600,
+          "y": 0,
+          "x": 0,
+          "mirror": false,
+          "rotate": false,
+          "shootStatus":"ruthless_assault",
+          "shoot":{
+            "type": "ShootSpread",
+            "shots": 20
+        },
+          "shootStatusDuration":300,
+            "bullet": {
+            "type": "BasicBulletType",
+                "width": 30,
+                "inaccuracy":360,
+                "height": 30,
+                "speed": 2,
+                "lifetime": 30,
+                "damage": 40,
+                "shootEffect": "shootSmall",
+                "smokeEffect": "shootSmallSmoke",
+                "ammoMultiplier": 2,
+                "frontColor": "ffbf72",
+                "backColor": "977143",
+                "lightColor": "fabd72",
+                "collidesTeam": false
+        },
+
+
+
+        "shootSound": ""},
+        { "reload": 120,
+        "y": 0,
+        "x": 0,
+        "mirror": false,
+        "rotate": false,
+        "shoot":{
+          "type": "ShootSpread",
+          "shots": 1
+      },
+        "shootStatusDuration":300,
+          "bullet": {
+          "type": "BasicBulletType",
+              "width": 12,
+              "height": 8,
+              "speed": 2,
+              "inaccuracy":4,
+              "splashDamage":350,
+              "scaledSplashDamage":true,
+              "lifetime": 120,
+              "explodeRange":440,
+              "splashDamageRadius":80,
+              "damage": 40,
+              "shootEffect": "shootSmall",
+              "smokeEffect": "shootSmallSmoke",
+              "ammoMultiplier": 2,
+              "frontColor": "ffbf72",
+              "backColor": "977143",
+              "lightColor": "fabd72",
+              "collidesTeam": false
+      },
+      "shootSound": ""},
+
+
+      {"reload": 3,
+      "y": 0,
+      "x": 0,
+      "mirror": false,
+      "rotate": false,
+    "bullet":{
+        "type":"BasicBulletType",
+        "damage":32,
+        "speed":3,
+        "lifetime":60,
+        "width": 8,
+        "height": 6,
+        "pierce":true,
+        "pierceBuilding":true,
+        "pierceCap":4
+       
+        }
+
+    
+    }
+]
+
+}
+    
+    
+    
+    
+
+
+    
+
+   
