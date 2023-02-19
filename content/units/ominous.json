@@ -7,8 +7,8 @@
 "speed":2.5,
 "accel": 0.05,
 "drag": 0.017,
-"weapons":
-{ "reload": 600,
+"weapons":[
+     {"reload": 600,
       "y": 0,
       "x": 0,
       "mirror": false,
@@ -29,26 +29,46 @@
             "damage": 40,
             "shootEffect": "shootSmall",
             "smokeEffect": "shootSmallSmoke",
-            "ammoMultiplier": 2,
             "frontColor": "ffbf72",
             "backColor": "977143",
             "lightColor": "fabd72",
             "collidesTeam": false
-    }
-
-
-
-
+    } 
+},
+       { "reload": 180,
+        "y": 0,
+        "x": 0,
+        "mirror": false,
+        "rotate": false,
+        "shoot":{
+          "type": "ShootSpread",
+          "shots": 1
+      },
+        "shootStatusDuration":300,
+          "bullet": {
+          "type": "BasicBulletType",
+              "width": 12,
+              "height": 8,
+              "speed": 3,
+              "inaccuracy":4,
+              "splashDamage":50,
+              "scaledSplashDamage":true,
+              "lifetime": 120,
+              "explodeRange":440,
+              "splashDamageRadius":80,
+              "damage": 40,
+              "shootEffect": "shootSmall",
+              "smokeEffect": "shootSmallSmoke",
+              "ammoMultiplier": 2,
+              "frontColor": "ffbf72",
+              "backColor": "977143",
+              "lightColor": "fabd72",
+              "collidesTeam": false
+      },
+      "shootSound": ""}]
 
 
 
 
     
-}
-
-
-
-
-
-
-}
+    }
