@@ -54,7 +54,7 @@
             "scaledSplashDamage":true,
             "homingRange": 250,
             "homingPower": 0.1,
-            "lifetime": 240,
+            "lifetime": 90,
             "explodeRange":320,
             "splashDamageRadius":80,
             "damage": 40,

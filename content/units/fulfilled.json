@@ -39,6 +39,8 @@
                     "speed": 8,
                     "lifetime": 20,
                     "damage": 10,
+                    "incendChance":1,
+                    "makeFire":true,
                     "status": "burning",
                     "shootEffect": "shootSmall",
                     "smokeEffect": "shootSmallSmoke",
