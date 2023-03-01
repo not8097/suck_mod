@@ -1,0 +1,54 @@
+{
+    "type": "ItemTurret",
+    "name": "bakuen",
+    "description": "",
+    "health": 790,
+    "size": 2,
+    "reload": 240,
+    "recoil":1,
+    "range": 240,
+    "shootSound": "",
+    "buildCostMultiplier": 0.85,
+  
+    "ammoTypes":{
+        "incendiary_bomb":
+        {
+        "type": "BasicBulletType",
+        "name":"incendiary_bomb",
+        "speed": 8,
+        "damage": 16,
+        "width": 9,
+        "height": 9,
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "lifetime": 60,
+        "fragBullets":1,
+        "fragBullet":{
+            "name":"incendiary_bomb",
+            "despawnEffect":"blastExplosion",
+            "width": 9,
+        "height": 9
+        }
+        
+    
+    }}
+
+
+
+
+
+
+    ,
+    "category": "turret",
+    "research": "lancer",
+    "requirements": [    
+        "copper/1000",
+        "lead/800",
+        "surge-alloy/300",
+        "silicon/480",
+        "graphite/750",
+        "thorium/750"
+        
+    ]
+
+}

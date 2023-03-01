@@ -35,7 +35,8 @@
         "lead/800",
         "surge-alloy/300",
         "silicon/480",
-        "thorium/750",
-        "graphite/750"
+        "graphite/750",
+        "thorium/750"
+        
     ]
 }

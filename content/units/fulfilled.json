@@ -38,7 +38,7 @@
                     "height": 30,
                     "speed": 8,
                     "lifetime": 20,
-                    "damage": 10,
+                    "damage": 25,
                     "incendChance":1,
                     "makeFire":true,
                     "status": "burning",

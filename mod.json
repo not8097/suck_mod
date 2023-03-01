@@ -3,6 +3,9 @@
 "displayName": "suck mod",
 "author": "8097's troops",
 "description": "it is suck.",
-"version": "0.0.198964",
-"minGameVersion": "140"
+"version": "0.1.198964",
+"minGameVersion": "140",
+"dependencies": [
+    "multi-crafter"
+]
 }
