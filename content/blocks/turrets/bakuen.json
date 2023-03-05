@@ -17,6 +17,8 @@
         "name":"incendiary_bomb",
         "speed": 8,
         "damage": 16,
+        "sprite":"incendiary_bomb",
+    
         "width": 9,
         "height": 9,
         "shootEffect": "shootSmall",
