@@ -8,6 +8,8 @@
     "warmupMaintainTime":60,
     "recoil":0,
     "range": 200,
+    "rotateSpeed":0,
+    "shootEffect":"lightningShoot",
     "shootSound": "8097/EMP",
     "buildCostMultiplier": 0.85,
     "shoot":{
@@ -18,11 +20,12 @@
     "consumes": {
         "power": 20
     },
-    "rotateSpeed": 99,
     "shootType": {
-        "type": "ShrapnelBulletType",
+        "type": "LaserBulletType",
         "length": 200,
         "damage": 20,
+        "shootCone":360,
+        "sprite":"none",
         "width": 1,
         "statusDuration": 180,
         "status": "pulsed",

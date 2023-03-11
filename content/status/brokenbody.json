@@ -6,6 +6,7 @@
     "color": "000000",
     "name" : "broken body",
     "permanent":true,
+    "outline":true,
 
     "description":"your body is broken!!!it broke forever!"
 }
