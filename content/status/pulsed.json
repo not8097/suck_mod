@@ -3,7 +3,7 @@
     "speedMultiplier": 0.0,
     "disarm": true,
     "color": "ff0000",
-    "name" : "pulsed",
+    "name" : "Pulsed",
     "outline":true,
-    "description":"in it status,you can't do anything"
+    "description":"With this status, you cannot do anything."
 }
