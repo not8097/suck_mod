@@ -40,7 +40,7 @@
           "x": 0,
           "mirror": false,
           "rotate": false,
-          "shootStatus":"ruthless_assault",
+          "shootStatus":"ruthless-assault",
           "shoot":{
             "type": "ShootSpread",
             "shots": 20
