@@ -30,7 +30,7 @@
                 "damage": 30,
                 "width": 4,
                 "permanent":true,
-                "status": "brokenbody",
+                "status": "broken-body",
                 "buildingDamageMultiplier":0.35
             },
             "shootSound": ""

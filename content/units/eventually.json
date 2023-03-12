@@ -36,7 +36,7 @@
                 "damage": 400,
                 "width": 4,
                 "permanent":true,
-                "status": "brokenbody",
+                "status": "broken-body",
                 "buildingDamageMultiplier":0.35
             },
             "shootSound": ""
@@ -49,7 +49,7 @@
           "x": 0,
           "mirror": false,
           "rotate": false,
-          "shootStatus":"ruthless_assault",
+          "shootStatus":"ruthless-assault",
           "shoot":{
             "type": "ShootSpread",
             "shots": 20
