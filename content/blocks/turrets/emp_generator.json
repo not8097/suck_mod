@@ -36,6 +36,7 @@
         "pierceBuilding":true,
         "statusDuration": 180,
         "status": "pulsed",
+        "absorbable":false,
         "buildingDamageMultiplier":0
 },
     "category": "turret",

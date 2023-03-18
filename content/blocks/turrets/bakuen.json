@@ -42,6 +42,7 @@
                 "frontColor": "FF0000",
                 "backColor": "404040",
                 "width": 9,
+                "scaleLife": true,
                 "height": 9,
                 "splashDamage":350,
                 "scaledSplashDamage":true,
