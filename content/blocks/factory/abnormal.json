@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "type": "Reconstructor",
     "health": 700,
@@ -22,4 +23,30 @@
     ],
     "research": "schAirFactory",
     "category": "units"
+=======
+{
+    "type": "Reconstructor",
+    "health": 700,
+    "size": 3,
+    "constructTime": 600,
+    "consumes": {
+        "power": 3,
+        "items": [
+            "titanium/15",
+            "silicon/50",
+            "lead/20"
+        ]
+    },
+    "upgrades": [
+        ["bode", "ominous"]
+        
+    ],
+    "requirements": [
+        "lead/300",
+        "copper/400",
+        "silicon/100"
+    ],
+    "research": "schAirFactory",
+    "category": "units"
+>>>>>>> e8f8c66e84d65ee7bfaf951ce6310f1d6cb82b3b
 }

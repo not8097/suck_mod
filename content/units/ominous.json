@@ -66,6 +66,11 @@
               "lightColor": "fabd72",
               "collidesTeam": false
       },
+<<<<<<< HEAD
+      "shootSound": ""}
+    
+
+=======
       "shootSound": ""},
     
     {"alwaysShooting":true
@@ -73,6 +78,7 @@
   
   
   }
+>>>>>>> e8f8c66e84d65ee7bfaf951ce6310f1d6cb82b3b
     
     
     
