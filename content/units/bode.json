@@ -6,7 +6,7 @@
     "drag": 0.017,
     "health": 120,
     "range":90,
-    "hitSize": 9,
+    "hitSize": 14,
     "itemCapacity": 5,
     "targetAir": true,
     "targetGround": true,
@@ -30,7 +30,7 @@
                 "damage": 30,
                 "width": 4,
                 "permanent":true,
-                "status": "broken-body",
+                "status": "brokenbody",
                 "buildingDamageMultiplier":0.35
             },
             "shootSound": ""
@@ -40,7 +40,7 @@
           "x": 0,
           "mirror": false,
           "rotate": false,
-          "shootStatus":"ruthless-assault",
+          "shootStatus":"ruthless_assault",
           "shoot":{
             "type": "ShootSpread",
             "shots": 20

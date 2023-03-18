@@ -1,6 +1,6 @@
 {
     "type": "ItemTurret",
-    "name": "Bakuen",
+    "name": "bakuen",
     "description": "",
     "health": 790,
     "size": 2,
@@ -48,7 +48,7 @@
                 "explodeRange":480,
                 "splashDamageRadius":80,
                 "speed":1,
-                "fragBullets":90,
+                "fragBullets":100,
                 "fragBullet":{
                     "type": "BasicBulletType",
                     "width": 30,
@@ -56,6 +56,8 @@
                     "height": 30,
                     "speed": 8,
                     "lifetime": 20,
+                    "impact":true,
+                    "knockback":1.2,
                     "damage": 25,
                     "pierce":true,
                     "pierceBuilding":true,

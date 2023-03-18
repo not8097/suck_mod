@@ -28,7 +28,7 @@
             "length": 240,
             "damage": 400,
             "width": 4,
-            "status": "broken-body",
+            "status": "brokenbody",
             "buildingDamageMultiplier":0.35
         },
         "shootSound": ""
@@ -53,7 +53,7 @@
             "splashDamage":60,
             "scaledSplashDamage":true,
             "homingRange": 250,
-            "homingPower": 0.1,
+            "homingPower": 0.9,
             "lifetime": 90,
             "explodeRange":320,
             "splashDamageRadius":80,
@@ -78,7 +78,7 @@
       "x": 0,
       "mirror": false,
       "rotate": false,
-      "shootStatus":"ruthless-assault",
+      "shootStatus":"ruthless_assault",
       "shoot":{
         "type": "ShootSpread",
         "shots": 20

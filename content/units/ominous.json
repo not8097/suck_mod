@@ -1,10 +1,11 @@
-{"name" : "Fminous",
+{"name" : "Ominous",
 "description":"s",
 "type":"flying",
 "health": 400,
 "flying":true,
 "armor":1,
 "speed":2.5,
+"hitSize": 14,
 "accel": 0.05,
 "drag": 0.017,
 "weapons":[
@@ -13,7 +14,7 @@
       "x": 0,
       "mirror": false,
       "rotate": false,
-      "shootStatus":"ruthless-assault",
+      "shootStatus":"ruthless_assault",
       "shoot":{
         "type": "ShootSpread",
         "shots": 20
@@ -65,7 +66,21 @@
               "lightColor": "fabd72",
               "collidesTeam": false
       },
-      "shootSound": ""}]
+      "shootSound": ""},
+    
+    {"alwaysShooting":true
+  
+  
+  
+  }
+    
+    
+    
+    
+    
+    
+    
+    ]
 
 
 

@@ -6,6 +6,7 @@
 "version": "0.1.198964",
 "minGameVersion": "140",
 "dependencies": [
-    "multi-crafter"
+    "multi-crafter",
+    "chrono-nucleardustry"
 ]
 }
