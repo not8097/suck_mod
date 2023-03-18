@@ -1,7 +1,8 @@
 {
     "type": "StatusEffect",
     "speedMultiplier": 2.5,
-    "color": "000000",
-    "name" : "Ruthless assault",
-    "description":"ura!!!!!"
+    "color": "8EDDFF",
+    "name" : "Ruthless Assault",
+    "description":"ura!!!!!",
+    "outline":true
 }

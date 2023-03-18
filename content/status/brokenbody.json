@@ -4,8 +4,9 @@
     "reloadMultiplier": 0.5,
     "effectChance":0.6,
     "color": "000000",
-    "name" : "broken body",
+    "name" : "Broken Body",
     "permanent":true,
+    "outline":true,
 
-    "description":"your body is broken!!!it broke forever!"
+    "description":"Your body is broken!!! It will broke forever!"
 }

@@ -1,0 +1,23 @@
+{
+    "name": "origin",
+    "description":"The origin of all disasters, invest a lot of resources to set off a disaster!",
+    "type": "UnitFactory",
+    "health": 500,
+    "size": 3,
+    "consumes": {
+        "power": 3,
+        "items": [
+            "titanium/15"
+        ]
+    },
+    "upgrades": [
+        ["bode", "ominous"]
+    ],
+    "requirements": [
+        "lead/70",
+        "copper/50",
+        "silicon/40"
+    ],
+    "research": "air-factory",
+    "category": "units"
+}

@@ -1,10 +1,11 @@
-{"name" : "ominous",
+{"name" : "Ominous",
 "description":"s",
 "type":"flying",
 "health": 400,
 "flying":true,
 "armor":1,
 "speed":2.5,
+"hitSize": 14,
 "accel": 0.05,
 "drag": 0.017,
 "weapons":[
@@ -26,7 +27,7 @@
             "height": 30,
             "speed": 2,
             "lifetime": 30,
-            "damage": 40,
+            "damage": 20,
             "shootEffect": "shootSmall",
             "smokeEffect": "shootSmallSmoke",
             "frontColor": "ffbf72",
@@ -65,7 +66,21 @@
               "lightColor": "fabd72",
               "collidesTeam": false
       },
-      "shootSound": ""}]
+      "shootSound": ""},
+    
+    {"alwaysShooting":true
+  
+  
+  
+  }
+    
+    
+    
+    
+    
+    
+    
+    ]
 
 
 

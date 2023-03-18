@@ -13,34 +13,88 @@
     "ammoTypes":{
         "incendiary_bomb":
         {
-        "type": "BasicBulletType",
-        "name":"incendiary_bomb",
-        "speed": 8,
-        "damage": 16,
-        "sprite":"incendiary_bomb",
-    
-        "width": 9,
-        "height": 9,
-        "shootEffect": "shootSmall",
-        "smokeEffect": "shootSmallSmoke",
-        "lifetime": 60,
-        "fragBullets":1,
-        "fragBullet":{
+            "type": "BasicBulletType",
             "name":"incendiary_bomb",
-            "despawnEffect":"blastExplosion",
+            "speed": 6,
+            "damage": 16,
+            "sprite":"suck_mod-incendiary_bomb_bullet",
+            "frontColor": "FF0000",
+            "backColor": "404040",
+            "trailLength":5,
+            "trailWidth":5,
+            "trailColor":"680c0a",
+            "scaleLife": true,
             "width": 9,
-        "height": 9
-        }
+            "height": 9,
+            "lightColor":"FF0000",
+            "lightRadius":1,
+            "lightOpacity":1,
+            "maxRange":240,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootSmallSmoke",
+            "lifetime": 60,
+            "fragBullets":1,
+            "fragBullet":{
+                "type": "BasicBulletType",
+                "name":"incendiary_bomb",
+                "sprite":"suck_mod-incendiary_bomb_bullet",
+                "despawnEffect":"blastExplosion",
+                "frontColor": "FF0000",
+                "backColor": "404040",
+                "width": 9,
+                "height": 9,
+                "splashDamage":350,
+                "scaledSplashDamage":true,
+                "explodeRange":480,
+                "splashDamageRadius":80,
+                "speed":1,
+                "fragBullets":100,
+                "fragBullet":{
+                    "type": "BasicBulletType",
+                    "width": 30,
+                    "inaccuracy":4,
+                    "height": 30,
+                    "speed": 8,
+                    "lifetime": 20,
+                    "impact":true,
+                    "knockback":1.2,
+                    "damage": 25,
+                    "pierce":true,
+                    "pierceBuilding":true,
+                    "pierceCap":4,
+                    "incendChance":1,
+                    "makeFire":true,
+                    "status": "burning",
+                    "shootEffect": "shootSmall",
+                    "smokeEffect": "shootSmallSmoke",
+                    "ammoMultiplier": 2,
+                    "frontColor": "ffbf72",
+                    "backColor": "977143",
+                    "lightColor": "fabd72",
+                    "collidesTeam": false
+
+
+
+                }
+
+
+            }
+            
         
+        }},
+
+
+
+
+
+        
+
+
+
+
+
+
     
-    }}
-
-
-
-
-
-
-    ,
     "category": "turret",
     "research": "lancer",
     "requirements": [    

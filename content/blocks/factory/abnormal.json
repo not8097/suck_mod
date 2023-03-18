@@ -1,0 +1,25 @@
+{
+    "type": "Reconstructor",
+    "health": 500,
+    "size": 3,
+    "constructTime": 600,
+    "consumes": {
+        "power": 3,
+        "items": [
+            "titanium/15",
+            "silicon/50",
+            "lead/20"
+        ]
+    },
+    "upgrades": [
+        ["bode", "ominous"]
+        
+    ],
+    "requirements": [
+        "lead/300",
+        "copper/400",
+        "silicon/100"
+    ],
+    "research": "schAirFactory",
+    "category": "units"
+}

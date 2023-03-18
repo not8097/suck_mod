@@ -5,25 +5,35 @@
     "health": 2485,
     "size": 3,
     "reload": 300,
-    "warmupMaintainTime":60,
     "recoil":0,
     "range": 200,
+    "rotateSpeed":0,
+    "shootEffect":{
+        "type":"ExplosionEffect",
+        "waveColor":"82fff6",
+        "waveRad":200,
+        "waveRadBase":0,
+        "waveLife":15
+    },
     "shootSound": "8097/EMP",
     "buildCostMultiplier": 0.85,
+    "shootCone":360,
     "shoot":{
         "type": "ShootSpread",
-        "shots": 180,
-        "spread": 2
+        "shots": 360,
+        "spread": 1
     },
     "consumes": {
         "power": 20
     },
-    "rotateSpeed": 99,
     "shootType": {
-        "type": "ShrapnelBulletType",
-        "length": 200,
+        "type": "BasicBulletType",
+        "speed": 20,
         "damage": 20,
-        "width": 1,
+        "sprite":"suck_mod-zzz",
+        "lifetime": 10,
+        "pierce":true,
+        "pierceBuilding":true,
         "statusDuration": 180,
         "status": "pulsed",
         "buildingDamageMultiplier":0
@@ -37,6 +47,6 @@
         "silicon/480",
         "graphite/750",
         "thorium/750"
-        
+
     ]
 }

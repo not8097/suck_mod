@@ -2,7 +2,8 @@
     "type": "StatusEffect",
     "speedMultiplier": 0.0,
     "disarm": true,
-    "color": "E8EA86",
-    "name" : "pulsed",
-    "description":"in it status,you can't do anything"
+    "color": "ff0000",
+    "name" : "Pulsed",
+    "outline":true,
+    "description":"With this status, you cannot do anything."
 }
