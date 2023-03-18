@@ -1,6 +1,6 @@
 {
     "type": "Reconstructor",
-    "health": 500,
+    "health": 700,
     "size": 3,
     "constructTime": 600,
     "consumes": {
