@@ -1,24 +1,26 @@
 {
     "type": "Reconstructor",
-    "health": 700,
-    "size": 3,
+    "health": 5000,
+    "size": 5,
     "constructTime": 600,
     "consumes": {
-        "power": 3,
+        "power": 5,
         "items": [
-            "titanium/15",
-            "silicon/50",
-            "lead/20"
+            "surge-alloy/250",
+            "silicon/1600",
+            "phase-fabric/300",
+            "thorium/600"
         ]
     },
     "upgrades": [
-        ["bode", "ominous"]
+        ["ominous", "fulfilled"]
         
     ],
     "requirements": [
         "lead/300",
         "copper/400",
-        "silicon/100"
+        "silicon/300",
+        "titanium/200"
     ],
     "research": "air-factory",
     "category": "units"

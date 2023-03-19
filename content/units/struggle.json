@@ -20,6 +20,7 @@
         "rotate": false,
         "reload": 150,
         "recoil": 5,
+        "collides":false,
         "shake": 2,
         "lifetime": 999999,
         "bullet": {
@@ -39,77 +40,93 @@
     "xRand":8,
     "reload": 600,
     "range":300,
+    "shootCone":360,
       "shoot":
       {
         "type": "ShootSpread",
-        "shots":10
+        "shots":10,
+        "spread":36
       },
       "bullet": 
       {
         "type": "MissileBulletType",
+        "maxRange":300,
             "width": 8,
             "height": 8,
             "speed": 0.5,
-            "inaccuracy":180,
             "collides":false,
+            "damage":0,
             "shootEffect": "shootSmall",
             "smokeEffect": "shootSmallSmoke",
             "despawnEffect":"none",
             "trailEffect":{
-              "effect":"struggle_bullet_effect",
-              "color":"AB77FF",
-              "rotateEffect":true,
-              "rotation":20
-
+              "colorFrom":"AB77FF",
+              "colorTo":"AB77FF",
+              "spin":10,
+              "type":"ParticleEffect",
+              "region":"struggle_bullet_effect"
             },
             "ammoMultiplier": 2,
             "frontColor": "AB77FF",
             "backColor": "9463FF",
             "lightColor": "AB77FF",
             "collidesTeam": false,
-            "flagBullets":1,
+            "fragBullets":1,
             "fragBullet":{
               "type": "MissileBulletType",
-              "flagBullets":1,
+              "damage":0,
               "collides":false,
               "shootEffect": "none",
             "smokeEffect": "shootSmallSmoke",
             "despawnEffect":{
                 "type":"ExplosionEffect",
                 "waveColor":"AB77FF",
-                "waveRad":16,
+                "waveRad":40,
                 "waveRadBase":0,
                 "waveLife":14
             },
             "trailEffect":{
-              "effect":"struggle_bullet_effect",
-              "color":"AB77FF",
-              "rotateEffect":true,
-              "rotation":20
-
+              "sprite":"struggle_bullet_effect",
+              "colorFrom":"AB77FF",
+              "colorTo":"ff0000",
+              "spin":10,
+              "type":"ParticleEffect",
+              "region":"struggle_bullet_effect"
             },
             "width": 8,
             "height": 8,
             "speed": 0,
             "lifetime": 60,
-            "flagBullet":{
+            "fragBullets":1,
+            "fragVelocityMin":1,
+            "fragBullet":{
               "type": "MissileBulletType",
-              "trailInterp":10,
+              "trailLength":40,
+              "trailColor":"ff0000",
               "speed":20,
               "lifetime":15,
-              "splashDamage":60,
-            "scaledSplashDamage":true,
-            "homingRange": 300,
-            "homingPower": 0.9,
-            "splashDamageRadius":80,
-            "damage": 40,
-            "despawnEffect":{
-              "type":"ExplosionEffect",
-              "waveColor":"ff0000",
-              "waveRad":16,
-              "waveRadBase":0,
-              "waveLife":14}
-
+              "splashDamage":100,
+              "scaledSplashDamage":true,
+              "homingRange": 300,
+              "homingPower": 0.9,
+              "splashDamageRadius":80,
+              "damage": 40,
+              "despawnEffect":{
+                "type":"ExplosionEffect",
+                "waveColor":"ff0000",
+                "waveRad":80,
+                "waveRadBase":0,
+                "waveLife":14},
+                "frontColor": "ff0000",
+                "trailEffect":{
+                  "colorFrom":"ff0000",
+                  "colorTo":"ff0000",
+                  "spin":10,
+                  "type":"ParticleEffect",
+                  "region":"struggle_bullet_effect"
+              },
+            "backColor": "ff0000"
+  
 
             
             

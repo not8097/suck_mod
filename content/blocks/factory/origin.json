@@ -4,14 +4,19 @@
     "type": "UnitFactory",
     "health": 500,
     "size": 3,
-    "consumes": {
-        "power": 3,
-        "items": [
-            "titanium/15"
-        ]
-    },
-    "upgrades": [
-        ["bode", "ominous"]
+    "plans":[
+        {
+            "unit": "bode",
+            "time": 600,
+            "requirements": [
+                "lead/30",
+                "silicon/20",
+                "graphite/5"
+            ]
+        }
+        
+
+
     ],
     "requirements": [
         "lead/70",

@@ -86,7 +86,7 @@
       },
         "shootStatusDuration":300,
           "bullet": {
-          "type": "BasicBulletType",
+          "type": "MissileBulletType",
               "width": 12,
               "height": 8,
               "speed": 2,
@@ -100,10 +100,17 @@
               "shootEffect": "shootSmall",
               "smokeEffect": "shootSmallSmoke",
               "ammoMultiplier": 2,
-              "frontColor": "ffbf72",
-              "backColor": "977143",
+              "frontColor": "AB77FF",
+              "backColor": "ff0000",
               "lightColor": "fabd72",
-              "collidesTeam": false
+              "collidesTeam": false,
+              "trailEffect":{
+                "colorFrom":"AB77FF",
+                "colorTo":"ff0000",
+                "spin":10,
+                "type":"ParticleEffect",
+                "region":"struggle_bullet_effect"
+              }
       },
       "shootSound": ""},
 
@@ -114,7 +121,7 @@
       "mirror": false,
       "rotate": false,
     "bullet":{
-        "type":"BasicBulletType",
+        "type":"MissileBulletType",
         "damage":32,
         "speed":3,
         "lifetime":60,
@@ -122,7 +129,17 @@
         "height": 6,
         "pierce":true,
         "pierceBuilding":true,
-        "pierceCap":4
+        "pierceCap":4,
+        "frontColor": "9B6EEA",
+        "backColor": "AB77FF",
+        "trailEffect":{
+          "colorFrom":"AB77FF",
+          "colorTo":"AB77FF",
+          "spin":10,
+          "type":"ParticleEffect",
+          "region":"struggle_bullet_effect"
+        }
+        
        
         }
 

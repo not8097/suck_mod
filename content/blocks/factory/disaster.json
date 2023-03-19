@@ -1,18 +1,19 @@
 {
     "type": "Reconstructor",
-    "health": 700,
-    "size": 3,
+    "health": 2200,
+    "size": 5,
     "constructTime": 600,
     "consumes": {
-        "power": 3,
+        "power": 5,
         "items": [
-            "titanium/15",
-            "silicon/50",
-            "lead/20"
+            "titanium/300",
+            "silicon/800",
+            "thorium/500",
+            "plastanium/400"
         ]
     },
     "upgrades": [
-        ["bode", "ominous"]
+        ["fulfilled", "struggle"]
         
     ],
     "requirements": [

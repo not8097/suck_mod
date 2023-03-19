@@ -8,12 +8,16 @@
     "recoil":0,
     "range": 200,
     "rotateSpeed":0,
+    "smokeEffect":"none",
+    "despawnEffect":"none",
     "shootEffect":{
         "type":"ExplosionEffect",
         "waveColor":"82fff6",
         "waveRad":200,
         "waveRadBase":0,
-        "waveLife":15
+        "waveLife":15,
+        "smokes":0,
+        "sparks":0
     },
     "shootSound": "8097/EMP",
     "buildCostMultiplier": 0.85,
@@ -33,11 +37,13 @@
         "sprite":"suck_mod-zzz",
         "lifetime": 10,
         "pierce":true,
+        "hitsize":24,
         "pierceBuilding":true,
         "statusDuration": 180,
         "status": "pulsed",
         "absorbable":false,
-        "buildingDamageMultiplier":0
+        "buildingDamageMultiplier":0,
+        "width": 24
 },
     "category": "turret",
     "research": "lancer",
