@@ -8,8 +8,9 @@
     "reload": 240,
     "recoil":1,
     "range": 240,
-    "shootSound": "",
+    "shootSound": "turrets/bekuen_shoot",
     "buildCostMultiplier": 0.85,
+    "heatColor":"FF4545FF",
   
     "ammoTypes":{
         "incendiary_bomb":
@@ -39,7 +40,15 @@
                 "type": "BasicBulletType",
                 "name":"incendiary_bomb",
                 "sprite":"suck_mod-incendiary_bomb_bullet",
-                "despawnEffect":"blastExplosion",
+                "despawnEffect":{
+                    "type":"ExplosionEffect",
+                    "waveColor":"ffbf72",
+                    "waveRad":160,
+                    "waveRadBase":0,
+                    "waveLife":15,
+                    "smokes":0,
+                    "sparks":0
+                },
                 "frontColor": "FF0000",
                 "backColor": "404040",
                 "width": 9,
@@ -49,6 +58,7 @@
                 "scaledSplashDamage":true,
                 "explodeRange":480,
                 "splashDamageRadius":80,
+                "despawnSound":"turrets/bekuen_bullet_exp",
                 "speed":1,
                 "fragBullets":100,
                 "fragBullet":{

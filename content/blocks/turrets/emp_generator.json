@@ -6,7 +6,7 @@
     "size": 3,
     "reload": 300,
     "recoil":0,
-    "range": 200,
+    "range": 180,
     "rotateSpeed":0,
     "smokeEffect":"none",
     "despawnEffect":"none",
@@ -19,7 +19,7 @@
         "smokes":0,
         "sparks":0
     },
-    "shootSound": "8097/EMP",
+    "shootSound": "turrets/EMP",
     "buildCostMultiplier": 0.85,
     "shootCone":360,
     "shoot":{
@@ -32,16 +32,17 @@
     },
     "shootType": {
         "type": "BasicBulletType",
-        "speed": 20,
+        "speed": 10,
         "damage": 20,
         "sprite":"suck_mod-zzz",
-        "lifetime": 10,
+        "lifetime": 20,
         "pierce":true,
-        "hitsize":24,
+        "hitSize":20,
         "pierceBuilding":true,
         "statusDuration": 180,
         "status": "pulsed",
         "absorbable":false,
+        "despawnEffect":"none",
         "buildingDamageMultiplier":0,
         "width": 24
 },

@@ -6,6 +6,7 @@
     "hasPower": true,
     "hasItems": true,
     "buildCostMultiplier": 0.85,
+    "researchCostMultiplier":10,
     "recipes": 
     [
     {
@@ -44,11 +45,7 @@
     ],
     "category": "crafting",
     "research":{
-      "parent": "blast_mixer",
-      "requirements":[
-          "copper/2500"
-         
-      ]
+      "parent": "blast-mixer"
     },
     "requirements":[       
       "copper/200",
@@ -60,8 +57,24 @@
     
     
   
-    ]
-  
-  }
+    ],
+    "defaultDrawer": 1,
+    "drawer": {
+      "type": "multicraft.DrawRecipe",
+      "drawers": [
+        {
+        "type": "DrawMulti",
+        "drawers": [
+          {
+            "type": "DrawRegion",
+            "suffix":"-1"
+          }
+        ]
+        },
+        [{
+          "type": "DrawRegion",
+          "suffix":"-2"
+        }]]
+  }}
     
     

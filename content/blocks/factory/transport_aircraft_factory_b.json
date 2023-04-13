@@ -1,0 +1,24 @@
+{
+"type": "UnitFactory",
+"health": 500,
+"size": 3,
+"plans":[
+    {
+        "unit": "transport_drone_b",
+        "time": 600,
+        "requirements": [
+            "lead/20",
+            "silicon/40",
+            "graphite/5"
+        ]
+    }],
+    
+
+    "requirements": [
+        "lead/500",
+        "copper/400",
+        "silicon/1000"
+    ],
+    "research": "transport_aircraft_factory_a",
+    "category": "units"
+}

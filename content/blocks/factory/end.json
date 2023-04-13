@@ -6,14 +6,14 @@
     "consumes": {
         "power": 5,
         "items": [
-            "surge-alloy/250",
+            "surge-alloy/750",
             "silicon/1600",
-            "phase-fabric/300",
+            "phase-fabric/500",
             "thorium/600"
         ]
     },
     "upgrades": [
-        ["ominous", "fulfilled"]
+        ["struggle", "eventually"]
         
     ],
     "requirements": [
