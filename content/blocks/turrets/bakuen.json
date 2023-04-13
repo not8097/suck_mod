@@ -8,7 +8,7 @@
     "reload": 240,
     "recoil":1,
     "range": 240,
-    "shootSound": "turrets/bekuen_shoot",
+    "shootSound": "turret/bekuen_shoot",
     "buildCostMultiplier": 0.85,
     "heatColor":"FF4545FF",
   
@@ -58,7 +58,7 @@
                 "scaledSplashDamage":true,
                 "explodeRange":480,
                 "splashDamageRadius":80,
-                "despawnSound":"turrets/bekuen_bullet_exp",
+                "despawnSound":"turret/bekuen_bullet_exp",
                 "speed":1,
                 "fragBullets":100,
                 "fragBullet":{

@@ -19,7 +19,7 @@
         "smokes":0,
         "sparks":0
     },
-    "shootSound": "turrets/EMP",
+    "shootSound": "turret/EMP",
     "buildCostMultiplier": 0.85,
     "shootCone":360,
     "shoot":{
