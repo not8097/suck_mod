@@ -4,7 +4,7 @@
 "author": "8097's troops",
 "description": "it is suck.",
 "version": "0.2.198964",
-"minGameVersion": "140",
+"minGameVersion": "146",
 "dependencies": [
     "multi-crafter",
     "chrono-nucleardustry"
